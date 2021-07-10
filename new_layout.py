@@ -67,7 +67,7 @@ if c2.checkbox("Show summary"):
     c2.table(iris_df.describe())
 
 
-species_option = c3.selectbox('View column data',('Select column','sepal_length','sepal_width','petal_length','petal_width','species'))
+species_option = c3.selectbox('View column data',('sepal_length','sepal_width','petal_length','petal_width','species'))
 if species_option == 'sepal_length':
     c3.write(iris_df['SepalLengthCm'])
 elif species_option == 'sepal_width':
