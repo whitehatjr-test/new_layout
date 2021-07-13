@@ -8,7 +8,7 @@ from sklearn.svm import SVC
 from sklearn.linear_model import LogisticRegression  
 from sklearn.ensemble import RandomForestClassifier
 
-st.set_page_config(layout="wide")
+st.set_page_config(page_title="Iris Prediction", layout="wide")
 
 # Loading the dataset.
 iris_df = pd.read_csv("https://student-datasets-bucket.s3.ap-south-1.amazonaws.com/whitehat-ds-datasets/iris-species.csv")
